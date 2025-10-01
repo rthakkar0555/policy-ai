@@ -260,12 +260,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [FastAPI](https://fastapi.tiangolo.com/) for the API framework
 - [OpenAI](https://openai.com/) for embeddings and language models
 
-## 📞 Support
-
-- 📧 Email: support@yourproject.com
-- 💬 Discord: [Join our community](https://discord.gg/yourproject)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/agentic-rag-pipeline/issues)
-
----
-
-**Made with ❤️ by the Agentic RAG Team**
