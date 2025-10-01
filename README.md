@@ -13,7 +13,6 @@ A powerful Retrieval-Augmented Generation (RAG) system built with **LangGraph**,
 - 🧠 **Intelligent RAG Pipeline**: LangGraph-powered multi-step retrieval and generation
 - 🔍 **Advanced Vector Search**: Qdrant Cloud integration for efficient similarity search
 - 🌐 **RESTful API**: Clean FastAPI endpoints for easy integration
-- 📄 **Multi-format Support**: PDF, TXT, MD, HTML, DOCX document processing
 - 🔧 **Configurable**: Flexible chunking, embedding, and generation parameters
 - ☁️ **Cloud-Ready**: Built for production with Qdrant Cloud and OpenAI
 
