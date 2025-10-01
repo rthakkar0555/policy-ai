@@ -19,6 +19,8 @@ A powerful Retrieval-Augmented Generation (RAG) system built with **LangGraph**,
 
 ## 🏗️ Architecture
 
+### Overall System Architecture
+
 ```mermaid
 graph TB
     A[📄 Documents] --> B[🔧 Document Processor]
@@ -32,6 +34,26 @@ graph TB
     H --> B
     I --> D
 ```
+
+### Advanced Query Processing Pipeline
+
+Our RAG system uses an innovative **Query Decomposition + Parallel Retrieval** architecture that significantly improves retrieval accuracy:
+
+![Query Processing Pipeline](graph_img/image.png)
+
+**Key Features:**
+- **Query Decomposition**: Breaks complex queries into focused, searchable components
+- **Parallel Retrieval**: Simultaneous searches across multiple query aspects
+- **Semantic Fusion**: Intelligent combination of results from different searches
+- **Component-Level Rewriting**: Targeted improvement of failed query components
+- **Relevance Judgment**: LLM-powered evaluation of retrieved context quality
+
+**Example Flow:**
+1. **Input**: "eye surgery in Dubai"
+2. **Decomposition**: ["What is covered for eye surgery procedures?", "What coverage is available for medical treatment in Dubai or UAE?", "What are the international medical coverage terms?"]
+3. **Parallel Search**: All three queries search simultaneously
+4. **Fusion**: Results are intelligently combined and deduplicated
+5. **Answer**: Comprehensive response with page references
 
 ## 🚀 Quick Start
 
