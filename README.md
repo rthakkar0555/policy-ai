@@ -38,7 +38,7 @@ graph TB
 
 Our RAG system uses an innovative **Query Decomposition + Parallel Retrieval** architecture that significantly improves retrieval accuracy:
 
-![Query Processing Pipeline](graph_img/image.png)
+![Query Processing Pipeline](app/graph_img/image.png)
 
 **Key Features:**
 - **Query Decomposition**: Breaks complex queries into focused, searchable components
