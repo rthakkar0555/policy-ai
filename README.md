@@ -199,37 +199,7 @@ src/agent/
 - **Temperature**: Response creativity (0.0-1.0)
 - **Retrieval Count**: Number of relevant chunks to retrieve
 
-## 🧪 Testing
 
-```bash
-# Run unit tests
-python -m pytest tests/unit_tests/
-
-# Run integration tests
-python -m pytest tests/integration_tests/
-
-# Run all tests
-python -m pytest
-```
-
-## 🚀 Deployment
-
-### Docker Deployment
-
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-EXPOSE 8000
-
-CMD ["python", "run.py"]
-```
-
-### Environment Variables for Production
 
 ```bash
 OPENAI_API_KEY=your_production_key
